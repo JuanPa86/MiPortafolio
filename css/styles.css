@@ -16,7 +16,7 @@
     text-decoration: none;
     color: #000;
   }
-  
+
   .header{
     display: flex;
     justify-content: space-between;
@@ -24,18 +24,21 @@
   }
   
   .header--img{
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
   }
   
   .header--list{
     display: flex;
     justify-content: space-between;
-    width: 300px;
+    width: 400px;
+    margin-top: 10px;
   }
   
   .header a:hover{
-    text-decoration: underline;
+    text-decoration: solid;
+    transition: ease-in .4s;
+    color: rgba(0, 0, 0, 0.726);
   }
   
   .main--container{
@@ -93,4 +96,9 @@
   .main--social-media h2{
     font-size: 16px;
     margin-right: 10px;
+  }
+
+  .main-container--icons {
+    width: 30px;
+    height: 30px;
   }
